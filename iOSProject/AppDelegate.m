@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "YLeBaseViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    YLeBaseViewController *yLeBaseVC = [[YLeBaseViewController alloc] init];
+    self.window.rootViewController = yLeBaseVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
