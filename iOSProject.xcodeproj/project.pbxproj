@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		759E90C920B53888008D9580 /* YLeCenterTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E90C820B53887008D9580 /* YLeCenterTabbar.m */; };
 		75CD717E2089CE9600CC66A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CD717D2089CE9600CC66A6 /* AppDelegate.m */; };
 		75CD71812089CE9600CC66A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CD71802089CE9600CC66A6 /* ViewController.m */; };
 		75CD71842089CE9600CC66A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CD71822089CE9600CC66A6 /* Main.storyboard */; };
@@ -40,7 +41,6 @@
 		75D12C9220B4215300191B90 /* video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D12C7C20B4200200191B90 /* video@3x.png */; };
 		75D12C9320B4215400191B90 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D12C7D20B4201600191B90 /* home@2x.png */; };
 		75D12C9420B4215400191B90 /* home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D12C7E20B4201600191B90 /* home@3x.png */; };
-		75D12C9B20B4258800191B90 /* YLeCenterTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D12C9A20B4258800191B90 /* YLeCenterTabbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +48,8 @@
 		7584902A2090220B00E24D2E /* intro_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_1.jpg; sourceTree = "<group>"; };
 		7584902B2090220B00E24D2E /* intro_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_0.jpg; sourceTree = "<group>"; };
 		7584902C2090220B00E24D2E /* intro_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = intro_3.jpg; sourceTree = "<group>"; };
+		759E90C720B53887008D9580 /* YLeCenterTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLeCenterTabbar.h; sourceTree = "<group>"; };
+		759E90C820B53887008D9580 /* YLeCenterTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLeCenterTabbar.m; sourceTree = "<group>"; };
 		75CD71792089CE9600CC66A6 /* iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CD717C2089CE9600CC66A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75CD717D2089CE9600CC66A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,8 +93,6 @@
 		75D12C7C20B4200200191B90 /* video@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video@3x.png"; sourceTree = "<group>"; };
 		75D12C7D20B4201600191B90 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
 		75D12C7E20B4201600191B90 /* home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@3x.png"; sourceTree = "<group>"; };
-		75D12C9920B4258800191B90 /* YLeCenterTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YLeCenterTabbar.h; path = "架构/YLeCenterTabbar.h"; sourceTree = "<group>"; };
-		75D12C9A20B4258800191B90 /* YLeCenterTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YLeCenterTabbar.m; path = "架构/YLeCenterTabbar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,8 +178,8 @@
 				75CD71932089DE1D00CC66A6 /* 架构 */,
 				75CD717C2089CE9600CC66A6 /* AppDelegate.h */,
 				75CD717D2089CE9600CC66A6 /* AppDelegate.m */,
-				75D12C9920B4258800191B90 /* YLeCenterTabbar.h */,
-				75D12C9A20B4258800191B90 /* YLeCenterTabbar.m */,
+				759E90C720B53887008D9580 /* YLeCenterTabbar.h */,
+				759E90C820B53887008D9580 /* YLeCenterTabbar.m */,
 				75CD71A22089F03E00CC66A6 /* YLeBaseViewController.h */,
 				75CD71A32089F03E00CC66A6 /* YLeBaseViewController.m */,
 				75CD71A52089F10A00CC66A6 /* YLeBaseNavigationController.h */,
@@ -342,7 +342,7 @@
 				75CD719D2089DFC300CC66A6 /* YLeMVPModel.m in Sources */,
 				75CD717E2089CE9600CC66A6 /* AppDelegate.m in Sources */,
 				75CD71A02089DFDB00CC66A6 /* YLePresenter.m in Sources */,
-				75D12C9B20B4258800191B90 /* YLeCenterTabbar.m in Sources */,
+				759E90C920B53888008D9580 /* YLeCenterTabbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
